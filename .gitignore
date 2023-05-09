@@ -1,0 +1,4 @@
+# created by virtualenv automatically
+venv/
+test.py
+__pycache__/
