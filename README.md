@@ -9,7 +9,7 @@
 The debug variable can take the values ​​**True or False**
 ### Example
 ```python
-from DEBUG import DEBUG
+from DEBUG.DEBUG import DEBUG
 
 try:
     ...
@@ -23,7 +23,7 @@ A decorator that measures **the duration of a program** and _returns_ it
 
 ### Example
 ```python
-from DEBUG import _timer
+from DEBUG.DEBUG import _timer
 # time is built-in function
 import time
 
