@@ -2,9 +2,9 @@ from datetime import datetime
 
 
 def _timer(func):
-    def inner():
+    def inner(*args):
         start = datetime.now()
-        func()
+        func(args)
         stop = datetime.now()
         return stop - start
 
